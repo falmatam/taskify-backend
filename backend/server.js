@@ -22,8 +22,7 @@ app.use(express.urlencoded({extended:false}));
 app.use(cors({
     origin:[
         "http://localhost:3000",
-        "https://subtle-babka-115afa.netlify.app"
-        
+        "https://radiant-kleicha-f9f985.netlify.app"
     ]
 }));
 app.use(taskRoutes);
