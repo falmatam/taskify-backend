@@ -22,7 +22,8 @@ app.use(express.urlencoded({extended:false}));
 app.use(cors({
     origin:[
         "http://localhost:3000",
-        "https://taskifye.onrender.com/"
+        "http://localhost:8885",
+        "https://taskifye.onrender.com"
     ]
 }));
 app.use(taskRoutes);
