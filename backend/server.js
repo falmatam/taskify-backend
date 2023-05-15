@@ -23,7 +23,7 @@ app.use(cors({
     origin:[
         "http://localhost:3000",
         "http://localhost:8885",
-        "https://taskifye.netlify.app"
+        "https://taskifye.onrender.com/"
     ]
 }));
 app.use(taskRoutes);
