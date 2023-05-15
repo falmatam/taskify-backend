@@ -22,7 +22,8 @@ app.use(express.urlencoded({extended:false}));
 app.use(cors({
     origin:[
         "http://localhost:3000",
-        "https://radiant-kleicha-f9f985.netlify.app"
+        "http://localhost:8885",
+        "https://taskifye.netlify.app"
     ]
 }));
 app.use(taskRoutes);
